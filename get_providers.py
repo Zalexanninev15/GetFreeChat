@@ -71,8 +71,8 @@ for url in gpt_list:
 
 result = list(set(x for x in unique_urls if not any(substring in x for substring in
                                                     ['huggingface.co/chat', 'star-history', 'docs', 'api', 'bing', 'openai', '.ico', '.webp',
-                                                     'getgpt', 'geekgpt', 'deepai', 'chatgpt.ch', 'chatgpt-free.ai', 'favicon',
-                                                     'chatgpt.org', 'cgs.skybyte.me', 'www.chatbase.co', 'www.aitianhu.com',
+                                                     'getgpt', 'chatgpt.ch', 'awesome', 'favicon',
+                                                     'chatgpt.org', 'cgs.skybyte.me', 'www.aitianhu.com',
                                                      'chatgpt.ai', 'powerchat.', 'p.aifree.site', 'gptgo.ai', 'ai.heptax.com', 'carrot',
                                                      'hteyun.com', 'chat.pinkfong.cn', 'c.newstop.uk', 'ai.zenglingkun.cn', '.png', '.jpg',
                                                      'nav4ai.net', 'coffeecat', 'chat.51buygpt.com', 'ai.mcbbs.gq', 'gptdidi.com', 'github', 'donate',
@@ -80,12 +80,12 @@ result = list(set(x for x in unique_urls if not any(substring in x for substring
                                                      'academic.aiearth.dev', 'chat2.xeasy.me', 'www.chatfree.cc', 'wiki',
                                                      'www.devgpt.com', 'a.aiask.me', 'mirrorchat.extkj.cn', 'chatyou.lovebaby.today', '.svg',
                                                      'chat1.manongzyg.one', 'chat.iwoso.co', 'freegpts1.aifree.site', 'suspended-website.com',
-                                                     'nb.aitom.cc', '94gpt.com', 'www.chatgptunli.com', 'chat.newstop.asia', 'ai.azstudio.top',
+                                                     'nb.aitom.cc', '94gpt.com', 'chat.newstop.asia', 'ai.azstudio.top',
                                                      'xjai.cc', 'chatgpt.kiask.xyz', 'aichat.gogpt.site', 'chatgpt.bybyte.cn', 'vvanglro.eu.org',
                                                      'gpt.xeasy.me', 'bettergpt.chat', 'chat.aisoftworks.com', 'hashnode.com', 'www.typingmind.com',
                                                      'www.magicaibot.com', 'chat-shared2.zhile.io', 'home.cutim.top', 'ailink.icu', 'bard.google.com',
                                                      'discord', 'x.com', 't.me', 'file', 'static', 'slack', 'opencopilot',
-                                                     'phind', 'deepinfra', 'apps.apple.com', 'play.google.com'])))
+                                                     'phind', 'deepinfra', 'apps.apple.com', 'play.google.com', 'repositori'])))
 
 with open('providers.txt', 'w') as file:
     file.write('\n'.join(result))
